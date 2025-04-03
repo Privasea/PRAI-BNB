@@ -53,7 +53,7 @@ FDN5: (address5  Add it later)
 
 FDN6: (address6  Add it later) 
 
-##### 3 wormhole Burn-and-Mint Mode＃
+#### 3. wormhole Burn-and-Mint Mode＃
 Tokens integrated with NttManager in burning mode require the following two functions to be present:
 
 burn(uint256 amount)
