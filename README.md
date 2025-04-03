@@ -1,7 +1,7 @@
 ### Privasea AI Token (PRAI) Smart Contract Documentation
 
 #### 1. Overview
-Privasea AI Token (PRAI) is an ERC-20 token contract based on Bnb chain, written in Solidity. The contract inherits from OpenZeppelin's ERC20 standard contract and initializes the token's name, symbol, and total supply within its constructor. Upon deployment, tokens are automatically allocated to specified addresses according to predefined distribution ratios.
+Privasea AI Token (PRAI) is an ERC-20 token contract based on BNB chain, written in Solidity. The contract inherits from OpenZeppelin's ERC20 standard contract and initializes the token's name, symbol, and total supply within its constructor. Upon deployment, tokens are automatically allocated to specified addresses according to predefined distribution ratios.
 
 #### 2. Contract Details
 
