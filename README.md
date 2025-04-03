@@ -52,3 +52,11 @@ FDN4: (address4  Add it later)
 FDN5: (address5  Add it later)
 
 FDN6: (address6  Add it later) 
+
+##### 3 wormhole Burn-and-Mint Mode＃
+Tokens integrated with NttManager in burning mode require the following two functions to be present:
+
+burn(uint256 amount)
+mint(address account, uint256 amount)
+These functions aren't part of the standard ERC-20 interface. The INttToken interface documents the required functions and convenience methods, errors, and events.
+https://github.com/wormhole-foundation/native-token-transfers/blob/main/evm/src/interfaces/INttToken.sol
