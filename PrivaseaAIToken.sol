@@ -35,12 +35,12 @@ contract PrivaseaAIToken is ERC20, ERC20Burnable, Ownable {
         uint256 totalSupply = 1000000000 * (10 ** 18); 
 
         address[6] memory addresses = [
-            //address1  Add it later.,
-            //address2  Add it later.,
-            //address3  Add it later.,
-            //address4  Add it later.,
-            //address5  Add it later.,
-            //address6  Add it later.
+            0x803aB4F88146D1596f5eae2aE05191a51596b5FD,
+            0x153aa8CF06B287bb7438B099B3874bD9Fec33A69,
+            0x89Ce1F07F31f4E81e050D5a4763441ef5C39F53A,
+            0x2bA8b713671b3f051612F3219Dd6bD88542Ee021,
+            0xBE5DF4c00702e1b6964718D251f44b03CD56F828,
+            0x19D7815045592C9b3030DB60992D65b22C419bC2
         ];
 
         uint256[6] memory allocations = [
