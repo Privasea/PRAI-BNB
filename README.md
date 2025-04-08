@@ -27,12 +27,12 @@ Upon contract deployment, the constructor performs the following actions:
 
 | Address                    | Allocation Label                        | Allocation Ratio | Allocation Amount (PRAI) |
 |----------------------------|-----------------------------------------|------------------|--------------------------|
-| (address1  Add it later)   | Mining and Staking                      | 35%              | 350,000,000 PRAI         |
-| (address2  Add it later)   | Team Allocation                         | 13%              | 130,000,000 PRAI         |
-| (address3  Add it later)   | Backer                                  | 22.5%            | 225,000,000 PRAI         |
-| (address4  Add it later)   | Marketing and Community Development Allocation | 15%       | 150,000,000 PRAI         |
-| (address5  Add it later)   | Reserve                                 | 10.5%            | 105,000,000 PRAI         |
-| (address6  Add it later)   | Liquidity                               | 4%               | 40,000,000 PRAI          |
+| 0x803aB4F88146D1596f5eae2aE05191a51596b5FD   | Mining and Staking                      | 35%              | 350,000,000 PRAI         |
+| 0x153aa8CF06B287bb7438B099B3874bD9Fec33A69  | Team Allocation                         | 13%              | 130,000,000 PRAI         |
+| 0x89Ce1F07F31f4E81e050D5a4763441ef5C39F53A   | Backer                                  | 22.5%            | 225,000,000 PRAI         |
+| 0x2bA8b713671b3f051612F3219Dd6bD88542Ee021  | Marketing and Community Development Allocation | 15%       | 150,000,000 PRAI         |
+| 0xBE5DF4c00702e1b6964718D251f44b03CD56F828   | Reserve                                 | 10.5%            | 105,000,000 PRAI         |
+| 0x19D7815045592C9b3030DB60992D65b22C419bC2  | Liquidity                               | 4%               | 40,000,000 PRAI          |
 
 
 ##### 2.6 Functionality
@@ -41,17 +41,17 @@ Upon contract deployment, the constructor performs the following actions:
 
 Corresponding Addresses:
 
-FDN1: (address1  Add it later) 
+FDN1: 0x803aB4F88146D1596f5eae2aE05191a51596b5FD
 
-FDN2: (address2  Add it later)
+FDN2: 0x153aa8CF06B287bb7438B099B3874bD9Fec33A69
 
-FDN3: (address3  Add it later)
+FDN3: 0x89Ce1F07F31f4E81e050D5a4763441ef5C39F53A
 
-FDN4: (address4  Add it later) 
+FDN4:  0x2bA8b713671b3f051612F3219Dd6bD88542Ee021
 
-FDN5: (address5  Add it later)
+FDN5: 0xBE5DF4c00702e1b6964718D251f44b03CD56F828
 
-FDN6: (address6  Add it later) 
+FDN6: 0x19D7815045592C9b3030DB60992D65b22C419bC2
 
 #### 3. wormhole Burn-and-Mint Mode＃
 Tokens integrated with NttManager in burning mode require the following two functions to be present:
