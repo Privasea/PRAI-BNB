@@ -27,12 +27,12 @@ Upon contract deployment, the constructor performs the following actions:
 
 | Address                    | Allocation Label                        | Allocation Ratio | Allocation Amount (PRAI) |
 |----------------------------|-----------------------------------------|------------------|--------------------------|
-| 0x803aB4F88146D1596f5eae2aE05191a51596b5FD   | Mining and Staking                      | 35%              | 350,000,000 PRAI         |
-| 0x153aa8CF06B287bb7438B099B3874bD9Fec33A69  | Team Allocation                         | 13%              | 130,000,000 PRAI         |
-| 0x89Ce1F07F31f4E81e050D5a4763441ef5C39F53A   | Backer                                  | 22.5%            | 225,000,000 PRAI         |
-| 0x2bA8b713671b3f051612F3219Dd6bD88542Ee021  | Marketing and Community Development Allocation | 15%       | 150,000,000 PRAI         |
-| 0xBE5DF4c00702e1b6964718D251f44b03CD56F828   | Reserve                                 | 10.5%            | 105,000,000 PRAI         |
-| 0x19D7815045592C9b3030DB60992D65b22C419bC2  | Liquidity                               | 4%               | 40,000,000 PRAI          |
+| 0x7e714385002bc5cbF5830b74C379055cca1f687D   | Mining and Staking                      | 35%              | 350,000,000 PRAI         |
+| 0xB41F2Fa2ba94B46CEFBd57fB82A855B377DC723f  | Team Allocation                         | 13%              | 130,000,000 PRAI         |
+| 0xf2D0965F6042542712047a0755FfB1Ff7466D26D   | Backer                                  | 22.5%            | 225,000,000 PRAI         |
+| 0xf114667779EBDfE8453A6916F0c8cE8c72429570  | Marketing and Community Development Allocation | 15%       | 150,000,000 PRAI         |
+| 0xcfc6AF7CB49812A65c66e47fb0D127cE368941Bf   | Reserve                                 | 10.5%            | 105,000,000 PRAI         |
+| 0xD380c9e8f6fc870eEc608815Bd6Ce09368567401  | Liquidity                               | 4%               | 40,000,000 PRAI          |
 
 
 ##### 2.6 Functionality
@@ -41,17 +41,19 @@ Upon contract deployment, the constructor performs the following actions:
 
 Corresponding Addresses:
 
-FDN1: 0x803aB4F88146D1596f5eae2aE05191a51596b5FD
 
-FDN2: 0x153aa8CF06B287bb7438B099B3874bD9Fec33A69
+FDN1: 0x7e714385002bc5cbF5830b74C379055cca1f687D
 
-FDN3: 0x89Ce1F07F31f4E81e050D5a4763441ef5C39F53A
+FDN2: 0xB41F2Fa2ba94B46CEFBd57fB82A855B377DC723f
 
-FDN4:  0x2bA8b713671b3f051612F3219Dd6bD88542Ee021
+FDN3: 0xf2D0965F6042542712047a0755FfB1Ff7466D26D
 
-FDN5: 0xBE5DF4c00702e1b6964718D251f44b03CD56F828
+FDN4: 0xf114667779EBDfE8453A6916F0c8cE8c72429570
 
-FDN6: 0x19D7815045592C9b3030DB60992D65b22C419bC2
+FDN5: 0xcfc6AF7CB49812A65c66e47fb0D127cE368941Bf
+
+FDN6: 0xD380c9e8f6fc870eEc608815Bd6Ce09368567401
+
 
 #### 3. wormhole Burn-and-Mint Mode＃
 Tokens integrated with NttManager in burning mode require the following two functions to be present:
